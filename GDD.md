@@ -19,3 +19,6 @@ Ranged and melee combat should be viable. The player should have very powerful o
 
 # Minion AI
 The minion's AI will be set by the player, using something similar to the Gambit system from Final Fantasy XII. The conditions and actions must be discovered in the world before they can be used. Ideally, the player should eventually be able to create a state machine with more advanced options.
+
+# Quests
+Quests will be hand-crafted, but will be chosen at random. The goal is to have a large variety of quests so the player gets a variety of things. I might try to set up some procedural quest generation in the future for some minor quests.
