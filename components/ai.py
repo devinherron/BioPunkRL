@@ -1,4 +1,4 @@
-import tcod as libtcod
+import tcod
 
 
 class BasicMonster:
@@ -6,7 +6,7 @@ class BasicMonster:
         results = []
 
         monster = self.owner
-        if libtcod.map_is_in_fov(fov_map, monster.x, monster.y):
+        if tcod.map_is_in_fov(fov_map, monster.x, monster.y):
 
             if monster.distance_to(target) >= 2:
                 monster.move_astar(target, entities, game_map)
